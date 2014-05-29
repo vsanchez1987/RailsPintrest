@@ -79,6 +79,6 @@ RailsPintrest::Application.configure do
   config.log_formatter = ::Logger::Formatter.new
 
   #required for Heroku
-  #Note to set this to your actual host at myologist.cos
+  #Note to set this to your actual host at myologist.co
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }
 end
